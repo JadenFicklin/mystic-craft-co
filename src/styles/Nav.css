@@ -1,10 +1,10 @@
 .nav-bars {
   width: 40px;
   height: 40px;
-  position: absolute;
+  position: fixed;
   left: 35px;
   top: 20px;
-  z-index: 2;
+  z-index: 5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,11 +32,12 @@
 .nav-outer {
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.253);
   top: 0px;
   left: 0px;
   transition: 0.3s;
+  z-index: 4;
 }
 .nav {
   position: relative;
@@ -47,6 +48,7 @@
   transition: 0.3s;
   display: flex;
   justify-content: center;
+  z-index: 4;
 }
 .false {
   left: 0px;
