@@ -25,25 +25,37 @@ function Nav() {
         <div className={dropdown ? "nav false" : "nav"}>
           <div className="nav-inner">
             <div className="nav-section-one">
-              <Link to="/" className="nav-link">
+              <Link to="/" className="nav-link" onClick={() => navDropDown()}>
                 <div className="link-left">
                   <AiFillHome className="icon" />
                 </div>
                 <div className="link-right">Home</div>
               </Link>
-              <Link to="/shop" className="nav-link">
+              <Link
+                to="/shop"
+                className="nav-link"
+                onClick={() => navDropDown()}
+              >
                 <div className="link-left">
                   <AiOutlineShop className="icon" />
                 </div>
                 <div className="link-right">Shop</div>
               </Link>
-              <Link to="/forum" className="nav-link">
+              <Link
+                to="/forum"
+                className="nav-link"
+                onClick={() => navDropDown()}
+              >
                 <div className="link-left">
                   <MdForum className="icon" />
                 </div>
                 <div className="link-right">Forum</div>
               </Link>
-              <Link to="/contact" className="nav-link">
+              <Link
+                to="/contact"
+                className="nav-link"
+                onClick={() => navDropDown()}
+              >
                 <div className="link-left">
                   <GrContact className="icon" />
                 </div>
