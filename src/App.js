@@ -1,12 +1,13 @@
 import "./App.css";
-import Landing from "./components/Landing";
+// import Landing from "./components/Landing";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About";
-import Profile from "./components/Profile";
 import Error from "./components/Error";
 import Nav from "./components/Nav";
 import { Helmet } from "react-helmet";
+import Shop from "./components/Shop";
+import Forum from "./components/Forum";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/forum" element={<Forum />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </Router>
