@@ -9,7 +9,13 @@ function Shop() {
         <div className="shop-tab">
           <div className="shop-tab-rounded-bit"></div>
         </div>
-        <div className="shopping-page-outer"></div>
+        <div className="shopping-page-outer">
+          <div className="shopping-component"></div>
+          <div className="shopping-component"></div>
+          <div className="shopping-component"></div>
+          <div className="shopping-component"></div>
+          <div className="shopping-component"></div>
+        </div>
       </div>
     </>
   );

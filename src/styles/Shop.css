@@ -38,7 +38,6 @@
   margin: 0 auto;
 }
 .shopping-page-outer {
-  height: 1000px;
   width: 100%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -47,4 +46,15 @@
   margin: 0 auto;
   margin-top: 100px;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.shopping-component {
+  margin: 100px;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: table-row;
 }
